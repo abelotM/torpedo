@@ -3,9 +3,6 @@ package nye.progtech.torpedo.model;
 import java.util.Arrays;
 import java.util.Objects;
 
-/**
- * Model class used to represent a Torpedo map.
- */
 public class MapVO {
 
     public static MapVOBuilder builder() {
@@ -97,9 +94,6 @@ public class MapVO {
         return result;
     }
 
-    /**
-     * Builder for {@link MapVO}.
-     */
     public static final class MapVOBuilder {
         private int numberOfRows;
         private int numberOfColumns;
